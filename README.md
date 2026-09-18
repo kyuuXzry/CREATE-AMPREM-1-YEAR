@@ -1,47 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AMPREM%20Plugin&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=WhatsApp%20Bot%20%7C%20Baileys%20%7C%20Magic%20Link&descAlignY=55&descSize=18" width="100%"/>
-
-<br>
-
-<a href="https://github.com/username/amprem-plugin/stargazers">
-    <img src="https://img.shields.io/github/stars/username/amprem-plugin?style=for-the-badge&logo=github&color=f4c542&labelColor=0d1117" alt="Stars"/>
-</a>
-<a href="https://github.com/username/amprem-plugin/network/members">
-    <img src="https://img.shields.io/github/forks/username/amprem-plugin?style=for-the-badge&logo=github&color=58a6ff&labelColor=0d1117" alt="Forks"/>
-</a>
-<a href="https://github.com/username/amprem-plugin/issues">
-    <img src="https://img.shields.io/github/issues/username/amprem-plugin?style=for-the-badge&logo=github&color=f85149&labelColor=0d1117" alt="Issues"/>
-</a>
-<a href="https://github.com/username/amprem-plugin/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/username/amprem-plugin?style=for-the-badge&logo=opensourceinitiative&color=3fb950&labelColor=0d1117" alt="License"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AMPREM&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=WhatsApp%20Bot%20Plugin&descAlignY=58&descSize=16" width="100%"/>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Baileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Baileys-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
+<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>
 
 <br><br>
 
-<b>AMPREM Plugin</b> untuk bot WhatsApp berbasis <a href="https://github.com/WhiskeySockets/Baileys">Baileys</a>.<br>
-Kirim & verifikasi magic link Alight Motion Premium via <b>DapjiSync API</b>.
-
-<br>
-
-<a href="#fitur">Fitur</a> •
-<a href="#install">Install</a> •
-<a href="#cara-pakai">Cara Pakai</a> •
-<a href="#contoh">Contoh</a> •
-<a href="#struktur">Struktur</a> •
-<a href="#troubleshooting">Troubleshooting</a> •
-<a href="#credit">Credit</a>
-
-<br>
+Plugin WhatsApp Bot buat kirim & verifikasi <b>magic link Alight Motion Premium</b><br>
+via DapjiSync API. Berbasis <a href="https://github.com/WhiskeySockets/Baileys">Baileys</a>.
 
 </div>
+
+---
+
+## Tentang
+
+Plugin ini dibuat buat bot WhatsApp berbasis Baileys. Fungsinya buat handle flow **Alight Motion Premium** (amprem) — mulai dari kirim magic link ke email, sampe verifikasi link-nya.
+
+Plugin standalone, jadi bisa lo taruh di folder `plugins/` tanpa ganggu file utama bot.
 
 ---
 
@@ -57,7 +38,6 @@ Kirim & verifikasi magic link Alight Motion Premium via <b>DapjiSync API</b>.
 - Verifikasi magic link otomatis
 - Flow send + verify dalam satu command
 - Auto-extract link dari response API
-- Session per user
 
 </td>
 <td width="50%" valign="top">
@@ -68,7 +48,6 @@ Kirim & verifikasi magic link Alight Motion Premium via <b>DapjiSync API</b>.
 - Cancel session kapan saja
 - Info Local ID & Token
 - Owner & Premium only
-- Plugin standalone (gak numpuk di file utama)
 
 </td>
 </tr>
@@ -78,28 +57,13 @@ Kirim & verifikasi magic link Alight Motion Premium via <b>DapjiSync API</b>.
 
 ## Install
 
-### Dependency
-
 ```bash
 npm install axios
 ```
 
-<table>
-<thead>
-<tr>
-<th align="left">Package</th>
-<th align="left">Fungsi</th>
-<th align="left">Versi</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>axios</code></td>
-<td>HTTP client</td>
-<td><img src="https://img.shields.io/npm/v/axios?style=flat-square&color=cb3837"/></td>
-</tr>
-</tbody>
-</table>
+| Package | Fungsi |
+|---------|--------|
+| `axios` | HTTP client |
 
 ---
 
@@ -135,25 +99,27 @@ npm install axios
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
 **Kirim Link**
 
 ```bash
 User: .amprem send user@gmail.com
 Bot:  Magic link terkirim!
+
       Gmail  : user@gmail.com
       Status : Link berhasil dikirim
 ```
 
 </td>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
 **Auto-Verify**
 
 ```bash
 User: .amprem full user@gmail.com
 Bot:  Verifikasi berhasil!
+
       Gmail    : user@gmail.com
       Status   : Success
       Local ID : xxxxx
@@ -175,7 +141,7 @@ npm install axios
 
 ### 2. Copy File Plugin
 
-Copy file `amprem.js` ke folder `plugins/` di bot lo.
+Taruh file `amprem.js` di folder `plugins/` bot lo.
 
 ```
 plugins/
@@ -184,24 +150,16 @@ plugins/
 
 ### 3. Pastikan Variabel Ada
 
-<table>
-<thead>
-<tr>
-<th align="left">Variabel</th>
-<th align="left">Deskripsi</th>
-</tr>
-</thead>
-<tbody>
-<tr><td><code>conn</code></td><td>Instance WhatsApp (<code>makeWASocket</code>)</td></tr>
-<tr><td><code>m</code></td><td>Message object</td></tr>
-<tr><td><code>text</code></td><td>Isi pesan setelah command</td></tr>
-<tr><td><code>prefix</code></td><td>Prefix bot (biasanya <code>.</code>)</td></tr>
-<tr><td><code>command</code></td><td>Command yang diketik</td></tr>
-<tr><td><code>Reply</code></td><td>Fungsi reply pesan</td></tr>
-<tr><td><code>isCreator</code></td><td>Cek user owner</td></tr>
-<tr><td><code>isPremium</code></td><td>Cek user premium</td></tr>
-</tbody>
-</table>
+| Variabel | Deskripsi |
+|----------|-----------|
+| `conn` | Instance WhatsApp (`makeWASocket`) |
+| `m` | Message object |
+| `text` | Isi pesan setelah command |
+| `prefix` | Prefix bot (biasanya `.`) |
+| `command` | Command yang diketik |
+| `Reply` | Fungsi reply pesan |
+| `isCreator` | Cek user owner |
+| `isPremium` | Cek user premium |
 
 > Kalau nama instance beda (misal `alip`, `kyuu`, dll), tinggal ganti `conn` ke nama instance bot lo.
 
@@ -216,7 +174,7 @@ node index.js
 ## Struktur
 
 ```
-amprem-plugin/
+.
 ├── README.md
 ├── LICENSE
 └── plugins/
@@ -227,52 +185,19 @@ amprem-plugin/
 
 ## Troubleshooting
 
-<details>
-<summary><b>Link tidak muncul di response</b></summary>
+**Link tidak muncul di response**
+> Cek inbox/spam email, copy link verifikasi manual, lalu jalankan `.amprem verify <link>`
 
-<br>
+**Gagal verifikasi: link expired**
+> Jalankan `.amprem cancel`, terus ulangi `.amprem send <email>`
 
-API kadang gak balikin link secara langsung. Solusinya:
-1. Cek inbox/spam email
-2. Copy link verifikasi manual
-3. Jalankan: `.amprem verify <link>`
+**Session hilang setelah restart**
+> Session disimpan di `global.ampremSession`. Pakai `.amprem full` kalau gak mau ribet.
 
-</details>
-
-<details>
-<summary><b>Gagal verifikasi: link expired</b></summary>
-
-<br>
-
-Magic link punya masa berlaku. Kalau expired:
-1. Jalankan `.amprem cancel`
-2. Ulangi `.amprem send <email>`
-
-</details>
-
-<details>
-<summary><b>Session hilang setelah restart</b></summary>
-
-<br>
-
-Session disimpan di `global.ampremSession`. Restart bot = session hilang.
-
-Solusi: pakai `.amprem full` yang langsung verify tanpa simpan session.
-
-</details>
-
-<details>
-<summary><b>Error Cannot find module axios</b></summary>
-
-<br>
-
-```bash
-npm install axios
-```
-
-Pastikan install di folder bot.
-
-</details>
+**Error Cannot find module axios**
+> ```bash
+> npm install axios
+> ```
 
 ---
 
@@ -283,24 +208,20 @@ Pastikan install di folder bot.
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50"/><br>
-<b>Node.js</b><br>
-<sub>Runtime</sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="45"/><br>
+<b>Node.js</b>
 </td>
 <td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/><br>
-<b>JavaScript</b><br>
-<sub>Language</sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/><br>
+<b>JavaScript</b>
 </td>
 <td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg" width="50"/><br>
-<b>Baileys</b><br>
-<sub>WhatsApp API</sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg" width="45"/><br>
+<b>Baileys</b>
 </td>
 <td align="center" width="25%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="50"/><br>
-<b>Axios</b><br>
-<sub>HTTP Client</sub>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="45"/><br>
+<b>Axios</b>
 </td>
 </tr>
 </table>
@@ -313,35 +234,22 @@ Pastikan install di folder bot.
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
-
-**Author**
-
-**KyuuAI**
+**Author** — KyuuAI
 
 <a href="https://wa.me/628567126744">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
 </a>
 <a href="https://instagram.com/Rissxzry_">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
 </a>
 
-</td>
-<td align="center" width="50%">
+<br><br>
 
-**API Provider**
-
-**DapjiSync**
+**API Provider** — DapjiSync
 
 <a href="https://am.dapjisync.my.id">
-    <img src="https://img.shields.io/badge/Website-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<img src="https://img.shields.io/badge/Website-58a6ff?style=flat-square&logo=googlechrome&logoColor=white"/>
 </a>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -349,24 +257,18 @@ Pastikan install di folder bot.
 
 ## License
 
-<div align="center">
+MIT License
 
-<a href="https://github.com/username/amprem-plugin/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-3fb950?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
-</a>
+Copyright (c) 2026 KyuuAI
 
-<br><br>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-**MIT License** - Bebas dipakai, modif, dan share.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**Jangan hapus credit, hargai creator.**
-
-</div>
-
----
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Made%20with%20Love&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=70" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=70" width="100%"/>
 
 </div>
