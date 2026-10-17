@@ -1,146 +1,120 @@
 <div align="center">
 
-<table>
-<tr>
-<td valign="middle" align="center" width="170">
-<img src="assets/alight-motion.svg" width="130" alt="Alight Motion"/>
-</td>
-<td valign="middle" align="left">
+<img src="https://raw.githubusercontent.com/kyuuXzry/CREATE-AMPREM-1-YEAR/main/assets/alight-motion.svg" width="120" height="120" alt="Alight Motion"/>
 
-<h1>CREATE AMPREM</h1>
+# CREATE AMPREM
 
-<b>Plugin WhatsApp Bot untuk magic link Alight Motion Premium</b>
-<br/>
-<sub>Kirim, verifikasi, dan selesai dalam satu command. Berbasis Baileys, via DapjiSync API.</sub>
+**Plugin WhatsApp Bot untuk magic link Alight Motion Premium**
 
-</td>
-</tr>
-</table>
-
-<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=640&height=40&lines=.amprem+send+email%40gmail.com;.amprem+verify+%3Clink%3E;.amprem+full+email%40gmail.com;.amprem+cancel" alt="Typing SVG"/>
-</a>
+Kirim dan verifikasi magic link lewat DapjiSync API. Berbasis Baileys.
 
 <br/>
 
 <a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=github&color=10B981&labelColor=0A0A0A" alt="Stars"/></a>
 <a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=github&color=059669&labelColor=0A0A0A" alt="Forks"/></a>
-<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/issues"><img src="https://img.shields.io/github/issues/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=github&color=047857&labelColor=0A0A0A" alt="Issues"/></a>
-<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/commits"><img src="https://img.shields.io/github/last-commit/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=git&color=10B981&labelColor=0A0A0A" alt="Last commit"/></a>
-<img src="https://img.shields.io/github/repo-size/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=files&color=059669&labelColor=0A0A0A" alt="Repo size"/>
-
-<br/>
-
 <img src="https://img.shields.io/badge/Node.js-v18+-0A0A0A?style=flat-square&logo=nodedotjs&logoColor=34D399" alt="Node.js"/>
-<img src="https://img.shields.io/badge/JavaScript-CommonJS-0A0A0A?style=flat-square&logo=javascript&logoColor=34D399" alt="JavaScript"/>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-WhatsApp-0A0A0A?style=flat-square&logo=whatsapp&logoColor=34D399" alt="Baileys"/></a>
-<img src="https://img.shields.io/badge/Axios-HTTP-0A0A0A?style=flat-square&logo=axios&logoColor=34D399" alt="Axios"/>
-<img src="https://img.shields.io/badge/Plan-1%20Year-10B981?style=flat-square&logo=clockify&logoColor=0A0A0A" alt="1 Year"/>
-<img src="https://img.shields.io/badge/Akses-Owner%20%26%20Premium-0A0A0A?style=flat-square&logo=shield&logoColor=34D399" alt="Akses"/>
-<img src="https://img.shields.io/badge/License-MIT-0A0A0A?style=flat-square&logo=opensourceinitiative&logoColor=34D399" alt="License"/>
+<img src="https://img.shields.io/badge/Akses-Owner%20%26%20Premium-10B981?style=flat-square&labelColor=0A0A0A" alt="Akses"/>
 
 </div>
 
 <br/>
 
-<table align="center" width="100%">
-<tr>
-<td align="center" width="25%">
-<h2>4</h2>
-<sub>COMMAND</sub>
-</td>
-<td align="center" width="25%">
-<h2>1</h2>
-<sub>FILE PLUGIN</sub>
-</td>
-<td align="center" width="25%">
-<h2>1</h2>
-<sub>DEPENDENCY</sub>
-</td>
-<td align="center" width="25%">
-<h2>2</h2>
-<sub>ROLE AKSES</sub>
-</td>
-</tr>
-</table>
-
-<br/>
-
-## <img src="https://api.iconify.design/lucide:rocket.svg?color=%2310B981" width="24" align="center"/>&nbsp;01 / Quick Start
-
-Plugin ini standalone. Cukup taruh di folder `plugins/` tanpa mengganggu file utama bot.
-
-```bash
-# 1. install dependency
-npm install axios
-
-# 2. salin plugin ke folder plugins/ bot kamu
-cp amprem.js plugins/amprem.js
-
-# 3. restart bot
-node index.js
-```
-
-Setelah bot hidup, kirim `.amprem full email@gmail.com` untuk mencoba.
-
-<br/>
-
-## <img src="https://api.iconify.design/lucide:terminal-square.svg?color=%2310B981" width="24" align="center"/>&nbsp;02 / Command
+## Fitur
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
-
-**<img src="https://api.iconify.design/lucide:send.svg?color=%2310B981" width="16" align="center"/>&nbsp;send**
-
-Kirim magic link ke email.
-
-```bash
-.amprem send email@gmail.com
-```
-
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:mail.svg?color=%2310B981" width="28"/><br/>
+<b>Kirim Magic Link</b><br/>
+<sub>Langsung ke email tujuan</sub>
 </td>
-<td width="50%" valign="top">
-
-**<img src="https://api.iconify.design/lucide:badge-check.svg?color=%2310B981" width="16" align="center"/>&nbsp;verify**
-
-Verifikasi magic link. Mendukung link manual dari inbox.
-
-```bash
-.amprem verify <link>
-```
-
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:badge-check.svg?color=%2310B981" width="28"/><br/>
+<b>Verifikasi Otomatis</b><br/>
+<sub>Link diambil dari response API</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:zap.svg?color=%2310B981" width="28"/><br/>
+<b>Satu Command</b><br/>
+<sub>Send + verify lewat <code>full</code></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-**<img src="https://api.iconify.design/lucide:zap.svg?color=%2310B981" width="16" align="center"/>&nbsp;full**
-
-Kirim link lalu verifikasi otomatis. Link diambil langsung dari response API.
-
-```bash
-.amprem full email@gmail.com
-```
-
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:link.svg?color=%2310B981" width="28"/><br/>
+<b>Custom Link</b><br/>
+<sub>Mendukung link dari inbox</sub>
 </td>
-<td width="50%" valign="top">
-
-**<img src="https://api.iconify.design/lucide:circle-x.svg?color=%2310B981" width="16" align="center"/>&nbsp;cancel**
-
-Batalkan session kapan saja.
-
-```bash
-.amprem cancel
-```
-
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:circle-x.svg?color=%2310B981" width="28"/><br/>
+<b>Cancel Session</b><br/>
+<sub>Batalkan kapan saja</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:key-round.svg?color=%2310B981" width="28"/><br/>
+<b>Local ID & Token</b><br/>
+<sub>Tampil setelah verifikasi</sub>
 </td>
 </tr>
 </table>
 
-<br/>
+## Cara Pasang
 
-## <img src="https://api.iconify.design/lucide:git-compare-arrows.svg?color=%2310B981" width="24" align="center"/>&nbsp;03 / Alur Kerja
+**1. Install dependency**
+
+```bash
+npm install axios
+```
+
+**2. Salin plugin**
+
+Taruh file `amprem.js` di folder `plugins/` bot kamu.
+
+```text
+plugins/
+└── amprem.js
+```
+
+**3. Restart bot**
+
+```bash
+node index.js
+```
+
+Plugin ini standalone, jadi tidak mengganggu file utama bot.
+
+## Cara Pakai
+
+| Command | Fungsi |
+| :-- | :-- |
+| `.amprem send <email>` | Kirim magic link ke email |
+| `.amprem verify <link>` | Verifikasi magic link |
+| `.amprem full <email>` | Kirim link, lalu verifikasi otomatis |
+| `.amprem cancel` | Batalkan session |
+
+**Contoh: kirim link**
+
+```text
+User: .amprem send user@gmail.com
+Bot:  Magic link terkirim!
+
+      Gmail  : user@gmail.com
+      Status : Link berhasil dikirim
+```
+
+**Contoh: send + verify**
+
+```text
+User: .amprem full user@gmail.com
+Bot:  Verifikasi berhasil!
+
+      Gmail    : user@gmail.com
+      Status   : Success
+      Local ID : xxxxx
+```
+
+## Alur Kerja
 
 ```mermaid
 sequenceDiagram
@@ -156,45 +130,9 @@ sequenceDiagram
     B-->>U: Hasil verifikasi
 ```
 
-### Contoh hasil di chat
+## Variabel yang Dibutuhkan
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**send**
-
-```text
-User: .amprem send user@gmail.com
-Bot:  Magic link terkirim!
-
-      Gmail  : user@gmail.com
-      Status : Link berhasil dikirim
-```
-
-</td>
-<td width="50%" valign="top">
-
-**full**
-
-```text
-User: .amprem full user@gmail.com
-Bot:  Verifikasi berhasil!
-
-      Gmail    : user@gmail.com
-      Status   : Success
-      Local ID : xxxxx
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## <img src="https://api.iconify.design/lucide:sliders-horizontal.svg?color=%2310B981" width="24" align="center"/>&nbsp;04 / Variabel yang Dibutuhkan
-
-Pastikan struktur bot kamu menyediakan variabel berikut ke plugin.
+Pastikan bot kamu menyediakan variabel berikut ke plugin.
 
 | Variabel | Deskripsi |
 | :-- | :-- |
@@ -210,9 +148,7 @@ Pastikan struktur bot kamu menyediakan variabel berikut ke plugin.
 > [!NOTE]
 > Kalau nama instance di bot kamu berbeda, ganti `conn` dengan nama instance bot kamu.
 
-<br/>
-
-## <img src="https://api.iconify.design/lucide:life-buoy.svg?color=%2310B981" width="24" align="center"/>&nbsp;05 / FAQ & Troubleshooting
+## Troubleshooting
 
 <details>
 <summary><b>Link tidak muncul di response</b></summary>
@@ -233,7 +169,7 @@ Session disimpan di <code>global.ampremSession</code>, jadi hilang saat bot rest
 </details>
 
 <details>
-<summary><b>Error <code>Cannot find module 'axios'</code></b></summary>
+<summary><b>Error Cannot find module 'axios'</b></summary>
 <br/>
 
 ```bash
@@ -248,9 +184,7 @@ npm install axios
 Pastikan pengirim adalah Owner atau Premium, dan nama variabel di bot kamu sudah sesuai dengan tabel di atas.
 </details>
 
-<br/>
-
-## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%2310B981" width="24" align="center"/>&nbsp;06 / Struktur Repositori
+## Struktur
 
 ```text
 CREATE-AMPREM-1-YEAR
@@ -262,42 +196,21 @@ CREATE-AMPREM-1-YEAR
 └── README.md
 ```
 
-<br/>
-
-## <img src="https://api.iconify.design/lucide:users.svg?color=%2310B981" width="24" align="center"/>&nbsp;07 / Credit
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-
-<sub><b>AUTHOR</b></sub>
-
-**KyuuAI**
-
-<a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Hubungi-0A0A0A?style=for-the-badge&logo=whatsapp&logoColor=34D399" alt="WhatsApp"/></a>
-<a href="https://instagram.com/Rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-0A0A0A?style=for-the-badge&logo=instagram&logoColor=34D399" alt="Instagram"/></a>
-<a href="https://github.com/kyuuXzry"><img src="https://img.shields.io/badge/GitHub-kyuuXzry-0A0A0A?style=for-the-badge&logo=github&logoColor=34D399" alt="GitHub"/></a>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<sub><b>API PROVIDER</b></sub>
-
-**DapjiSync**
-
-<a href="https://am.dapjisync.my.id"><img src="https://img.shields.io/badge/Website-am.dapjisync.my.id-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=34D399" alt="DapjiSync"/></a>
-
-</td>
-</tr>
-</table>
+## Credit
 
 <div align="center">
 
+**Author** · KyuuAI
+
+<a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Hubungi-0A0A0A?style=flat-square&logo=whatsapp&logoColor=34D399" alt="WhatsApp"/></a>
+<a href="https://instagram.com/Rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-0A0A0A?style=flat-square&logo=instagram&logoColor=34D399" alt="Instagram"/></a>
+<a href="https://github.com/kyuuXzry"><img src="https://img.shields.io/badge/GitHub-kyuuXzry-0A0A0A?style=flat-square&logo=github&logoColor=34D399" alt="GitHub"/></a>
+
+**API Provider** · DapjiSync
+
+<a href="https://am.dapjisync.my.id"><img src="https://img.shields.io/badge/Website-am.dapjisync.my.id-0A0A0A?style=flat-square&logo=googlechrome&logoColor=34D399" alt="DapjiSync"/></a>
+
 <br/>
-
-<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90%20Beri%20bintang%20kalau%20bermanfaat-10B981?style=for-the-badge&labelColor=0A0A0A" alt="Star"/></a>
-
-<br/><br/>
 
 <sub>MIT License © 2026 KyuuAI · teks lengkap di <a href="LICENSE"><code>LICENSE</code></a></sub>
 
