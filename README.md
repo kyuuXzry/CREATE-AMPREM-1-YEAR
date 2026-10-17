@@ -1,38 +1,67 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AMPREM&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=WhatsApp%20Bot%20Plugin&descAlignY=58&descSize=16" width="100%"/>
+<br/>
 
-<br><br>
+<img src="assets/alight-motion.svg" width="120" alt="Alight Motion"/>
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Baileys-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>
+<h1>AMPREM</h1>
 
-<br><br>
+<p><b>WhatsApp Bot Plugin · Alight Motion Premium</b></p>
 
-Plugin WhatsApp Bot buat kirim & verifikasi <b>magic link Alight Motion Premium</b><br>
-via DapjiSync API. Berbasis <a href="https://github.com/WhiskeySockets/Baileys">Baileys</a>.
+<a href="https://github.com/kyuuXzry">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=640&height=45&lines=Kirim+magic+link+ke+email;Verifikasi+link+otomatis;Send+%2B+verify+dalam+satu+command;Berbasis+Baileys+%7C+via+DapjiSync+API" alt="Typing SVG"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Node.js-14532D?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0A0A0A"/>
+<img src="https://img.shields.io/badge/JavaScript-166534?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0A0A0A"/>
+<a href="https://github.com/WhiskeySockets/Baileys">
+  <img src="https://img.shields.io/badge/Baileys-15803D?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0A0A0A"/>
+</a>
+<img src="https://img.shields.io/badge/Axios-14532D?style=for-the-badge&logo=axios&logoColor=white&labelColor=0A0A0A"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/ACCESS-OWNER%20%26%20PREMIUM-166534?style=for-the-badge&logo=shield&logoColor=white&labelColor=0A0A0A"/>
+<img src="https://img.shields.io/badge/API-DAPJISYNC-15803D?style=for-the-badge&logo=icloud&logoColor=white&labelColor=0A0A0A"/>
+<img src="https://img.shields.io/badge/LICENSE-MIT-14532D?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0A0A0A"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
 
 </div>
 
----
+<br/>
 
-## Tentang
+<div align="center">
 
-Plugin ini dibuat buat bot WhatsApp berbasis Baileys. Fungsinya buat handle flow **Alight Motion Premium** (amprem) — mulai dari kirim magic link ke email, sampe verifikasi link-nya.
+<h2><img src="https://api.iconify.design/lucide:info.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Tentang</h2>
 
-Plugin standalone, jadi bisa lo taruh di folder `plugins/` tanpa ganggu file utama bot.
+</div>
 
----
+Plugin WhatsApp Bot buat kirim & verifikasi **magic link Alight Motion Premium** via DapjiSync API. Berbasis [Baileys](https://github.com/WhiskeySockets/Baileys).
 
-## Fitur
+Fungsinya buat handle flow **Alight Motion Premium** (amprem), mulai dari kirim magic link ke email sampai verifikasi link-nya.
 
-<table>
+Plugin ini standalone, jadi bisa lo taruh di folder `plugins/` tanpa ganggu file utama bot.
+
+<br/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:sparkles.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Fitur</h2>
+
+</div>
+
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
-**Core**
+### <img src="https://api.iconify.design/lucide:zap.svg?color=%2316A34A" width="22" align="center"/>&nbsp;Core
 
 - Kirim magic link ke email
 - Verifikasi magic link otomatis
@@ -42,7 +71,7 @@ Plugin standalone, jadi bisa lo taruh di folder `plugins/` tanpa ganggu file uta
 </td>
 <td width="50%" valign="top">
 
-**Bonus**
+### <img src="https://api.iconify.design/lucide:gift.svg?color=%2316A34A" width="22" align="center"/>&nbsp;Bonus
 
 - Support custom link (dari inbox)
 - Cancel session kapan saja
@@ -53,51 +82,58 @@ Plugin standalone, jadi bisa lo taruh di folder `plugins/` tanpa ganggu file uta
 </tr>
 </table>
 
----
+<br/>
 
-## Install
+<div align="center">
 
-```bash
-npm install axios
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
 
-| Package | Fungsi |
-|---------|--------|
-| `axios` | HTTP client |
+<h2><img src="https://api.iconify.design/lucide:terminal.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Cara Pakai</h2>
 
----
+</div>
 
-## Cara Pakai
+| Command | Fungsi |
+| :-- | :-- |
+| `.amprem send <email>` | Kirim magic link ke email |
+| `.amprem verify <link>` | Verifikasi magic link |
+| `.amprem full <email>` | Kirim link + verifikasi otomatis |
+| `.amprem cancel` | Batalkan session |
 
-### Kirim Magic Link
+**Kirim magic link**
 
 ```bash
 .amprem send email@gmail.com
 ```
 
-### Verifikasi Link
+**Verifikasi link**
 
 ```bash
 .amprem verify <link>
 ```
 
-### Send + Auto-Verify
+**Send + auto-verify**
 
 ```bash
 .amprem full email@gmail.com
 ```
 
-### Batalkan Session
+**Batalkan session**
 
 ```bash
 .amprem cancel
 ```
 
----
+<br/>
 
-## Contoh
+<div align="center">
 
-<table>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:message-square.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Contoh</h2>
+
+</div>
+
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
@@ -129,9 +165,15 @@ Bot:  Verifikasi berhasil!
 </tr>
 </table>
 
----
+<br/>
 
-## Cara Pasang
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:package.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Cara Pasang</h2>
+
+</div>
 
 ### 1. Install Dependency
 
@@ -139,11 +181,15 @@ Bot:  Verifikasi berhasil!
 npm install axios
 ```
 
+| Package | Fungsi |
+| :-- | :-- |
+| `axios` | HTTP client |
+
 ### 2. Copy File Plugin
 
 Taruh file `amprem.js` di folder `plugins/` bot lo.
 
-```
+```text
 plugins/
 └── amprem.js
 ```
@@ -151,7 +197,7 @@ plugins/
 ### 3. Pastikan Variabel Ada
 
 | Variabel | Deskripsi |
-|----------|-----------|
+| :-- | :-- |
 | `conn` | Instance WhatsApp (`makeWASocket`) |
 | `m` | Message object |
 | `text` | Isi pesan setelah command |
@@ -161,6 +207,7 @@ plugins/
 | `isCreator` | Cek user owner |
 | `isPremium` | Cek user premium |
 
+> [!NOTE]
 > Kalau nama instance beda (misal `alip`, `kyuu`, dll), tinggal ganti `conn` ke nama instance bot lo.
 
 ### 4. Restart Bot
@@ -169,41 +216,50 @@ plugins/
 node index.js
 ```
 
----
+<br/>
 
-## Struktur
+<div align="center">
 
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:folder-tree.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Struktur</h2>
+
+</div>
+
+```text
 .
 ├── README.md
 ├── LICENSE
+├── assets/
+│   └── alight-motion.svg
 └── plugins/
     └── amprem.js
 ```
 
----
-
-## Troubleshooting
-
-**Link tidak muncul di response**
-> Cek inbox/spam email, copy link verifikasi manual, lalu jalankan `.amprem verify <link>`
-
-**Gagal verifikasi: link expired**
-> Jalankan `.amprem cancel`, terus ulangi `.amprem send <email>`
-
-**Session hilang setelah restart**
-> Session disimpan di `global.ampremSession`. Pakai `.amprem full` kalau gak mau ribet.
-
-**Error Cannot find module axios**
-> ```bash
-> npm install axios
-> ```
-
----
-
-## Tech Stack
+<br/>
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:life-buoy.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Troubleshooting</h2>
+
+</div>
+
+| Masalah | Solusi |
+| :-- | :-- |
+| Link tidak muncul di response | Cek inbox/spam email, copy link verifikasi manual, lalu jalankan `.amprem verify <link>`. |
+| Gagal verifikasi: link expired | Jalankan `.amprem cancel`, terus ulangi `.amprem send <email>`. |
+| Session hilang setelah restart | Session disimpan di `global.ampremSession`. Pakai `.amprem full` kalau gak mau ribet. |
+| `Cannot find module 'axios'` | Jalankan `npm install axios`. |
+
+<br/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
+
+<h2><img src="https://api.iconify.design/lucide:wrench.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Tech Stack</h2>
 
 <table>
 <tr>
@@ -226,49 +282,47 @@ node index.js
 </tr>
 </table>
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
 
----
+<h2><img src="https://api.iconify.design/lucide:heart.svg?color=%2316A34A" width="26" align="center"/>&nbsp;Credit</h2>
 
-## Credit
-
-<div align="center">
-
-**Author** — KyuuAI
+**Author** · KyuuAI
 
 <a href="https://wa.me/628567126744">
-<img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WhatsApp-Hubungi-14532D?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0A0A0A"/>
 </a>
 <a href="https://instagram.com/Rissxzry_">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Instagram-Follow-166534?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A0A0A"/>
 </a>
 
-<br><br>
+<br/><br/>
 
-**API Provider** — DapjiSync
+**API Provider** · DapjiSync
 
 <a href="https://am.dapjisync.my.id">
-<img src="https://img.shields.io/badge/Website-58a6ff?style=flat-square&logo=googlechrome&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Website-am.dapjisync.my.id-15803D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A0A0A"/>
 </a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:166534,100:000000&height=2" width="100%"/>
 
 </div>
 
----
-
-## License
-
-MIT License
-
-Copyright (c) 2026 KyuuAI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<br/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=70" width="100%"/>
+<h2><img src="https://api.iconify.design/lucide:scale.svg?color=%2316A34A" width="26" align="center"/>&nbsp;License</h2>
+
+</div>
+
+MIT License © 2026 KyuuAI. Teks lengkap lisensi ada di file [`LICENSE`](LICENSE).
+
+<div align="center">
+
+<br/>
+
+<sub>Kalau plugin ini kepake, kasih ⭐ ya.</sub>
 
 </div>
