@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kyuuXzry/CREATE-AMPREM-1-YEAR/main/assets/alight-motion.svg" width="120" height="120" alt="Alight Motion"/>
+<img src="assets/alight-motion.svg" width="120" height="120" alt="Alight Motion"/>
 
 # CREATE AMPREM
 
