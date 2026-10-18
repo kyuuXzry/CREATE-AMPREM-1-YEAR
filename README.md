@@ -1,41 +1,217 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="120" height="120" role="img" aria-label="Alight Motion" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4MmFjNTdkMy1lNjJjLTQ0MDAtYTgxMy1lM2U4NjU1OTViNjMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaAqg/gWkRoyBVtvw9tXdEM8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphMTgwNjMxMi0wZGI4LTRkMmMtODk4OC1jZTMzYmNlOWRjZWZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNodt92o7t32/IwK76DFoeuswAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg3q8s9iKocCcVxlVu5asCXPZE6NPJhNwVhHYo3f/gEsikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFEt01i4qk1pXypiOM1YWJsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDqoyPojy46zpJaeurHaWdW5QauMSLbKW1JasOAwgTvB2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi8Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjgyYWM1N2QzLWU2MmMtNDQwMC1hODEzLWUzZTg2NTU5NWI2My9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmViOWE3YjhiLTJiNjYtNDM4Ny05YjJiLWYwMTIxZGNhMjU2ZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDeryz2IqhwJxXGVW7lqwJc9kTo08mE3BWEdijd/+ASyKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggrqIm1rKGTsxqZ1xUY0EdtPIBJZ0YnfuOZ7EX9qLxskWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggKGNBvdk33OeZhYBv2inmRHVJ9WGXSG06GT03Fb+BnXd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIMJ9ue0QiIF8Ltsmf74w9xFRkmpIqaaEj7HyNRnrSR4s2r0EA2FzPXuLORftHd/C8xL03Uw6+bNg7HPyRIzuYo=</c2pa:manifest></metadata>
-  <defs>
-    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.7">
-      <stop offset="0" stop-color="#26304D"/>
-      <stop offset="1" stop-color="#1B2238"/>
-    </radialGradient>
-    <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="86" y1="205" x2="432" y2="278">
-      <stop offset="0" stop-color="#22E8A5" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#22E8A5" stop-opacity="1"/>
-    </linearGradient>
-    <linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="191" y1="149" x2="351" y2="374">
-      <stop offset="0" stop-color="#22E8A5" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#22E8A5" stop-opacity="1"/>
-    </linearGradient>
-    <linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="244" y1="177" x2="349" y2="300">
-      <stop offset="0" stop-color="#22E8A5" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#22E8A5" stop-opacity="1"/>
-    </linearGradient>
-    <linearGradient id="g4" gradientUnits="userSpaceOnUse" x1="272" y1="219" x2="312" y2="290">
-      <stop offset="0" stop-color="#22E8A5" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#22E8A5" stop-opacity="1"/>
-    </linearGradient>
-  </defs>
-  <style>
-    .arc { fill: none; stroke-linecap: round; stroke-dasharray: var(--l); animation: loop 4s ease-in-out infinite; }
-    .a2 { animation-delay: 0.2s; }
-    .a3 { animation-delay: 0.4s; }
-    .a4 { animation-delay: 0.6s; }
-    @keyframes loop {
-      0%   { stroke-dashoffset: var(--l); }
-      35%  { stroke-dashoffset: 0; }
-      70%  { stroke-dashoffset: 0; }
-      100% { stroke-dashoffset: var(--l); }
-    }
-  </style>
-  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
-  <path class="arc a1" style="--l:510" stroke="url(#g1)" stroke-width="24" d="M86 205 A180 180 0 0 1 432 278"/>
-  <path class="arc a2" style="--l:405" stroke="url(#g2)" stroke-width="24" d="M191 149 A140 140 0 0 1 351 374"/>
-  <path class="arc a3" style="--l:330" stroke="url(#g3)" stroke-width="24" d="M243.5 177.4 A98 98 0 1 1 248.6 372.9"/>
-  <path class="arc a4" style="--l:225" stroke="url(#g4)" stroke-width="22" d="M272.5 218.6 A60 60 0 1 1 210.3 318.2"/>
-</svg>
+<div align="center">
+
+<img src="assets/alight-motion.svg" width="120" height="120" alt="Alight Motion"/>
+
+# CREATE AMPREM
+
+**Plugin WhatsApp Bot untuk magic link Alight Motion Premium**
+
+Kirim dan verifikasi magic link lewat DapjiSync API. Berbasis Baileys.
+
+<br/>
+
+<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=github&color=10B981&labelColor=0A0A0A" alt="Stars"/></a>
+<a href="https://github.com/kyuuXzry/CREATE-AMPREM-1-YEAR/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/CREATE-AMPREM-1-YEAR?style=flat-square&logo=github&color=059669&labelColor=0A0A0A" alt="Forks"/></a>
+<img src="https://img.shields.io/badge/Node.js-v18+-0A0A0A?style=flat-square&logo=nodedotjs&logoColor=34D399" alt="Node.js"/>
+<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-WhatsApp-0A0A0A?style=flat-square&logo=whatsapp&logoColor=34D399" alt="Baileys"/></a>
+<img src="https://img.shields.io/badge/Akses-Owner%20%26%20Premium-10B981?style=flat-square&labelColor=0A0A0A" alt="Akses"/>
+
+</div>
+
+<br/>
+
+## Fitur
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:mail.svg?color=%2310B981" width="28"/><br/>
+<b>Kirim Magic Link</b><br/>
+<sub>Langsung ke email tujuan</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:badge-check.svg?color=%2310B981" width="28"/><br/>
+<b>Verifikasi Otomatis</b><br/>
+<sub>Link diambil dari response API</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:zap.svg?color=%2310B981" width="28"/><br/>
+<b>Satu Command</b><br/>
+<sub>Send + verify lewat <code>full</code></sub>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:link.svg?color=%2310B981" width="28"/><br/>
+<b>Custom Link</b><br/>
+<sub>Mendukung link dari inbox</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:circle-x.svg?color=%2310B981" width="28"/><br/>
+<b>Cancel Session</b><br/>
+<sub>Batalkan kapan saja</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<img src="https://api.iconify.design/lucide:key-round.svg?color=%2310B981" width="28"/><br/>
+<b>Local ID & Token</b><br/>
+<sub>Tampil setelah verifikasi</sub>
+</td>
+</tr>
+</table>
+
+## Cara Pasang
+
+**1. Install dependency**
+
+```bash
+npm install axios
+```
+
+**2. Salin plugin**
+
+Taruh file `amprem.js` di folder `plugins/` bot kamu.
+
+```text
+plugins/
+└── amprem.js
+```
+
+**3. Restart bot**
+
+```bash
+node index.js
+```
+
+Plugin ini standalone, jadi tidak mengganggu file utama bot.
+
+## Cara Pakai
+
+| Command | Fungsi |
+| :-- | :-- |
+| `.amprem send <email>` | Kirim magic link ke email |
+| `.amprem verify <link>` | Verifikasi magic link |
+| `.amprem full <email>` | Kirim link, lalu verifikasi otomatis |
+| `.amprem cancel` | Batalkan session |
+
+**Contoh: kirim link**
+
+```text
+User: .amprem send user@gmail.com
+Bot:  Magic link terkirim!
+
+      Gmail  : user@gmail.com
+      Status : Link berhasil dikirim
+```
+
+**Contoh: send + verify**
+
+```text
+User: .amprem full user@gmail.com
+Bot:  Verifikasi berhasil!
+
+      Gmail    : user@gmail.com
+      Status   : Success
+      Local ID : xxxxx
+```
+
+## Alur Kerja
+
+```mermaid
+sequenceDiagram
+    actor U as User
+    participant B as Bot (amprem.js)
+    participant A as DapjiSync API
+    U->>B: .amprem full email@gmail.com
+    B->>B: Cek akses Owner / Premium
+    B->>A: Kirim magic link
+    A-->>B: Response berisi link
+    B->>A: Verifikasi link
+    A-->>B: Local ID & Token
+    B-->>U: Hasil verifikasi
+```
+
+## Variabel yang Dibutuhkan
+
+Pastikan bot kamu menyediakan variabel berikut ke plugin.
+
+| Variabel | Deskripsi |
+| :-- | :-- |
+| `conn` | Instance WhatsApp (`makeWASocket`) |
+| `m` | Message object |
+| `text` | Isi pesan setelah command |
+| `prefix` | Prefix bot (biasanya `.`) |
+| `command` | Command yang diketik |
+| `Reply` | Fungsi reply pesan |
+| `isCreator` | Cek user owner |
+| `isPremium` | Cek user premium |
+
+> [!NOTE]
+> Kalau nama instance di bot kamu berbeda, ganti `conn` dengan nama instance bot kamu.
+
+## Troubleshooting
+
+<details>
+<summary><b>Link tidak muncul di response</b></summary>
+<br/>
+Cek inbox atau spam email, salin link verifikasi secara manual, lalu jalankan <code>.amprem verify &lt;link&gt;</code>.
+</details>
+
+<details>
+<summary><b>Gagal verifikasi: link expired</b></summary>
+<br/>
+Jalankan <code>.amprem cancel</code>, lalu ulangi <code>.amprem send &lt;email&gt;</code>.
+</details>
+
+<details>
+<summary><b>Session hilang setelah restart</b></summary>
+<br/>
+Session disimpan di <code>global.ampremSession</code>, jadi hilang saat bot restart. Gunakan <code>.amprem full</code> supaya tidak bergantung pada session.
+</details>
+
+<details>
+<summary><b>Error Cannot find module 'axios'</b></summary>
+<br/>
+
+```bash
+npm install axios
+```
+
+</details>
+
+<details>
+<summary><b>Perintah tidak merespons</b></summary>
+<br/>
+Pastikan pengirim adalah Owner atau Premium, dan nama variabel di bot kamu sudah sesuai dengan tabel di atas.
+</details>
+
+## Struktur
+
+```text
+CREATE-AMPREM-1-YEAR
+├── assets
+│   └── alight-motion.svg
+├── plugins
+│   └── amprem.js
+├── LICENSE
+└── README.md
+```
+
+## Credit
+
+<div align="center">
+
+**Author** · KyuuAI
+
+<a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Hubungi-0A0A0A?style=flat-square&logo=whatsapp&logoColor=34D399" alt="WhatsApp"/></a>
+<a href="https://instagram.com/Rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-0A0A0A?style=flat-square&logo=instagram&logoColor=34D399" alt="Instagram"/></a>
+<a href="https://github.com/kyuuXzry"><img src="https://img.shields.io/badge/GitHub-kyuuXzry-0A0A0A?style=flat-square&logo=github&logoColor=34D399" alt="GitHub"/></a>
+
+**API Provider** · DapjiSync
+
+<a href="https://am.dapjisync.my.id"><img src="https://img.shields.io/badge/Website-am.dapjisync.my.id-0A0A0A?style=flat-square&logo=googlechrome&logoColor=34D399" alt="DapjiSync"/></a>
+
+<br/>
+
+<sub>MIT License © 2026 KyuuAI · teks lengkap di <a href="LICENSE"><code>LICENSE</code></a></sub>
+
+</div>
